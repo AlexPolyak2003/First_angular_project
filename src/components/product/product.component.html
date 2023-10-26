@@ -1,0 +1,32 @@
+<form class="form">
+  <div class="inputs">
+    <tui-input class="input" formControlName="email"> Type an email </tui-input>
+
+    <tui-input class="input" formControlName="first name">
+      First name
+    </tui-input>
+    <tui-input class="input" formControlName="last name"> Last name </tui-input>
+    <tui-input-password
+      class="input"
+      formControlName="password"
+      tuiHintAppearance="onDark"
+      tuiHintContent
+      tuiHintDirection="right"
+    >
+      Type a password
+    </tui-input-password>
+  </div>
+
+  <div class="check_box">
+    <tui-checkbox-labeled class="checkbox" formControlName="testValue1">
+      <div class="text">
+        I agree with
+        <a routerLink="/components/link" tuiLink> Terms and condition </a>
+      </div>
+    </tui-checkbox-labeled>
+  </div>
+
+  <div class="btn">
+    <button tuiButton>Submit</button>
+  </div>
+</form>

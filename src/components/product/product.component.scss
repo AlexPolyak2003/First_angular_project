@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    .input {
+      width: 320px;
+      //   height: 2em;
+    }
+  }
+
+  .check_box {
+    margin-top: 1.5em;
+    .checkbox {
+      display: flex;
+      flex-direction: row;
+
+      .text {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .btn {
+    margin-top: 1em;
+  }
+}
